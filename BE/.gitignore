@@ -1,0 +1,84 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+## Node.js
+# compiled output
+**/dist/*
+!**/dist/v4
+!**/dist/v5
+
+**/tmp
+**/out-tsc
+
+# dependencies
+**/node_modules
+
+## IDE
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# WebStorm/Rider
+**/.idea
+.idea/*
+
+# Misc
+**/.sass-cache
+**/connect.lock
+**/coverage
+**/libpeerconnection.log
+npm-debug.log
+testem.log
+**/typings
+.npmrc
+**/.npmrc
+
+# e2e
+**/e2e/*.js
+**/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Binaries
+# **/*.so
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# User specific files
+docker-compose.user.yml
+.env
+**/nohup.out
